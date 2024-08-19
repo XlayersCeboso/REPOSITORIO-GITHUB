@@ -14,3 +14,11 @@
 - p07_OperadoresAsignacion
 - p08_FuncionesTrigonometricas
 - p09_dividir_en_cifras
+
+## Practica 1
+- p10_HipotenusaTriangulo
+- p11_CalcularAngulo
+- p12_ConvertirTemperatura
+- p13_VolumenCilindro
+- p14_CalculoTiempo
+- p15_ConvertirADolares
