@@ -78,7 +78,8 @@ public class Practica_Repaso_1erParcial {
             }
 
             //Se pregunta si se desea asignar otra venta 
-            System.out.print("Otra venta (S/N) ? "); resp = Sebas.next().toUpperCase();
+            System.out.print("Otra venta (S/N) ? "); 
+            resp = Sebas.next().toUpperCase();
             repite = resp.equals("S");
 
             //Se suma 1 al Contador cada vez que el usuario desea agregar otra venta,

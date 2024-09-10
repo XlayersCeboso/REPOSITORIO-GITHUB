@@ -95,4 +95,6 @@
 - p64_SumaTerminos2
 
 ## Practica 5 
-- Práctica de repaso 1er Parcial
+- Practica_Repaso_1erParcial
+
+## pe01_PrimerExamenParcial
