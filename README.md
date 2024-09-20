@@ -112,3 +112,10 @@
 - p73_SumaParesImpares
 - p74_Factorial
 - p75_CuadroCaracter 
+
+## Práctica 6
+- p76_NumeroMenor
+- p77_DiaSemana
+- p78_MedidasLongitud
+- p79_SumaMultiplos
+- p80_Angulo
