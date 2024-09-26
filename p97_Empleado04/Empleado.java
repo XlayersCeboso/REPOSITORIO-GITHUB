@@ -52,3 +52,4 @@ public class Empleado {
         return "Empleado [Nombre=" + Nombre + ", Edad=" + Edad + ", Sexo=" + Sexo + ", Casado=" + Casado + "]";
     }
 }
+//
