@@ -2,21 +2,21 @@ package p95_Empleado02;
 
 public class Empleado {
     private String Nombre;
-    private int Edad;
-    public String getNombre() {
+    private int edad;
+    public String getNombre() { 
         return Nombre;
     }
     public void setNombre(String nombre) {
         Nombre = nombre;
     }
     public int getEdad() {
-        return Edad;
+        return edad;
     }
     public void setEdad(int edad) {
-        Edad = edad;
+        this.edad = edad;
     }
-    @Override
+    
     public String toString() {
-        return "Empleado [Nombre=" + Nombre + ", Edad=" + Edad + "]";
+        return "Empleado [Nombre=" + Nombre + ", edad=" + edad + "]";
     }
 }
