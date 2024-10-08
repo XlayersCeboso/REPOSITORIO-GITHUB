@@ -1,4 +1,4 @@
-package P106_Persona;
+package p106_Persona;
 
 public class Apoyo extends Persona {
     private String Descripcion;

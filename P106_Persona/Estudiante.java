@@ -1,4 +1,4 @@
-package P106_Persona;
+package p106_Persona;
 
 public class Estudiante extends Persona {
     private String Carrera;
