@@ -8,7 +8,7 @@ public class p17_TrabajandoFlotantes {
         double num4 = 1232312321.434343d;
         double num5 = .3456;
 
-        System.out.print("\033[H\033[2J"); System.out.flush();
+   System.out.print("\033[H\033[2J");      System.out.flush();
 
         System.out.println("\nUso de String.format para formateo de números flotantes. : ");
         System.out.println(String.format("num1 y num2 en formato flotante : %f %f", num1, num2));
