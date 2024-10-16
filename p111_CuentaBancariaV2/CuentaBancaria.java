@@ -17,3 +17,4 @@ public  abstract class CuentaBancaria { // la clase podrá ser heredada,
     public abstract boolean retira(double cantidad); // etse método 
     // tiene que ser implementado en las clases que heredan 
 }
+//
