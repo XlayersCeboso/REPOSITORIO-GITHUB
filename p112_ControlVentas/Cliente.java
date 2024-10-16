@@ -31,3 +31,4 @@ public class Cliente {
         return "Cliente [Nombre = " + Nombre + ", Domicilio = " + Domicilio + ", Correo = " + Correo + ", Ventas = " + Ventas.size() + ", Total = " + getTotal() + "]";
     }
 }
+//

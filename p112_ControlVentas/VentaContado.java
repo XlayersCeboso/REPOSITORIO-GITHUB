@@ -20,3 +20,4 @@ public class VentaContado extends Venta {
     }
     
 }
+//

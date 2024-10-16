@@ -20,3 +20,4 @@ public class VentaCredito extends Venta {
     }
     
 }
+//
