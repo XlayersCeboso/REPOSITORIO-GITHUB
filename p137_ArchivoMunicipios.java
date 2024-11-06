@@ -1,22 +1,20 @@
-// Utiliza streams para escribir datos en un archivo
-
 import java.io.*;
 
-public class p133_Archivos2 {
+public class p137_ArchivoMunicipios {
     public static void main(String[] args) {
-        String[] ciuddades = {"Zacatecas", "Fresnillo", "Cd Guzman", "Rio Grandre", "Guadalajara", "Novolato", "Zacatlán", "Nieves", "Tepetongo", "Momax", "Huejucar"};
-        File arch = new File("ciudades.txt");
+        String[] municipios = {"Zacatecas", "Fresnillo", "Jerez", "Teul de GO", "Miguel Auza", "Tlatenango", "Villanueva", "Apozol", "Cañitas de Felipe", "Santa María de lla Guerra"};
+        File arch = new File("municipios .txt");
 
         System.out.print("\033[H\033[2J");
 
         if (! arch.exists()) {
             System.out.println("No existe, por lo tanto lo vamos a crear ... ");
             try {
-                BufferedWriter fciudades = new BufferedWriter(new FileWriter(arch));
-                for (String ciudad : ciuddades) {
-                    fciudades.write(ciudad + "\n");
+                BufferedWriter fmunicipios = new BufferedWriter(new FileWriter(arch));
+                for (String municipio : municipios) {
+                    fmunicipios.write(municipio + "\n");
                 }
-                fciudades.close();
+                fmunicipios.close();
                 System.out.println("Archivo creado con éxito ... ");
             } catch (Exception e) {
                 System.out.println("Hubo error al manipular el archivo " + e.getMessage());
@@ -25,4 +23,3 @@ public class p133_Archivos2 {
             System.out.println("El archivo ya existe ... ");
     }
 }
-//
