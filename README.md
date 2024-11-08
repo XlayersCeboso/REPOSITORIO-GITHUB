@@ -217,5 +217,9 @@
 ## Práctica 14
 - p137_ArchivoMunicipios
 - p138_ArchivoMaterias 
-- p139_ArchivoEstudiante - 
+- p139_ArchivoEstudiante 
 
+## Actividad 24
+- p140_HolaMundoGUI
+- p141_AreaTrianguloGUI
+- p142_LeyDeNewtonGUI
